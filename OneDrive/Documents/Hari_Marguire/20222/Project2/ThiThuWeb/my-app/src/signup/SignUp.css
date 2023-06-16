@@ -1,0 +1,43 @@
+
+  
+.signUp form {
+    border: 3px solid #f1f1f1;
+    margin-top: 20px;
+    width: 40%;
+    transform: translate(80%);
+}
+    
+b {
+    left: 0;
+    text-align: left;
+}
+  
+.signUp input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}  
+
+.signUp  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.signUp button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to containers */
+.signUp .signUp-part {
+    padding: 16px;
+}
+
+
