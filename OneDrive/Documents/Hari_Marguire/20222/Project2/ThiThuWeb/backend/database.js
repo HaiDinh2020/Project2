@@ -1,7 +1,7 @@
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
     host: 'localhost',
-    database: 'mockexam',
+    database: 'data_exam',
     user: 'root',
     password: 'm@tKhaumysql'
 });
